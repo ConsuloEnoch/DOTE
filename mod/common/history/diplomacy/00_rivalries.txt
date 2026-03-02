@@ -1,0 +1,14 @@
+DIPLOMACY = {
+    c:NYR ?= {
+        create_diplomatic_pact = {
+            country = c:MIG
+            type = rivalry
+        }
+    }
+    c:MIG ?= {
+        create_diplomatic_pact = {
+            country = c:NYR
+            type = rivalry
+        }
+    }
+}

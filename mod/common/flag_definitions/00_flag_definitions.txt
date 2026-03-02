@@ -1,0 +1,32 @@
+NYR = { # Nanyang Republic
+	flag_definition = {
+		coa = NYR
+		subject_canton = NYR
+		allow_overlord_canton = yes
+		priority = 1
+	}
+}
+MIG = { # Ming
+	flag_definition = {
+		coa = MIG
+		subject_canton = MIG
+		allow_overlord_canton = yes
+		priority = 1
+	}
+}
+QNG = { # Qing
+	flag_definition = {
+		coa = QNG
+		subject_canton = QNG
+		allow_overlord_canton = yes
+		priority = 1
+	}
+}
+SCP = { # Sichuan Province
+	flag_definition = {
+		coa = SCP
+		subject_canton = SCP
+		allow_overlord_canton = yes
+		priority = 1
+	}
+}

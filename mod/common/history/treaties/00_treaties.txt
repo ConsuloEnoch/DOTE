@@ -1,0 +1,40 @@
+TREATIES = {
+	# huainan huimeng / huainan treaty
+	create_treaty = {
+		name = "treaty_huainan_huimeng"
+		first_country = c:MIG 
+		second_country = c:QNG 
+
+		is_draft = no
+		entered_into_force_on = 1822.2.1
+		binding_period = { years = 99 } 
+
+		articles_to_create = {
+			{
+				article = money_transfer
+				source_country = c:MIG
+				target_country = c:QNG 
+				inputs = {
+					{ quantity = 1000 } # draft & needs to be changed
+				}
+			}
+			{ 
+				article = goods_transfer
+				source_country = c:MIG
+				target_country = c:QNG
+				inputs = {
+					{ goods = g:grain }
+					{ quantity = 2000 } # draft & needs to be changed
+				}
+			}
+			{ 
+				article = trade_privilege
+				source_country = c:MIG
+				target_country = c:QNG
+			}
+			{ 
+				article = defensive_pact
+			}
+		}
+	}
+}

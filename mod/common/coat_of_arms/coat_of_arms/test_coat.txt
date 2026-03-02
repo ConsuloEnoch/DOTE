@@ -1,0 +1,103 @@
+NYR = { #Nanyang Republic
+	pattern = "pattern_solid.tga"
+	color1 = "yellow"
+
+	colored_emblem = {
+		texture = "ce_tricolor_vertical.dds"
+		color1 = "white"
+		color2 = "red"
+	}
+}
+MIG = { #Ming need to be replaced with a different pattern
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+	color2 = "yellow"
+
+	colored_emblem = {
+		texture = "ce_frame_circle.dds"
+		color1 = "yellow"
+		color2 = "yellow"
+        instance = { scale = { 0.66 0.66 } position = { 0.5 0.5 } }
+	}
+	colored_emblem = {
+		texture = "ce_dragon_china_circle.dds"
+		color1 = "blue"
+		color2 = "white"
+		color3 = "blue_light"
+		instance = { scale = { 0.68 0.68 } position = { 0.50 0.51 } }
+	}
+	colored_emblem = {
+		texture = "ce_frame_circle.dds"
+		color1 = "red"
+		color2 = "red"
+		instance = { scale = { 0.12 0.12 } position = { 0.5 0.525 } }
+	}
+}	
+QNG = { #Qing temporarily using this pattern
+	pattern = "pattern_solid.tga"
+	color1 = "yellow"
+	color2 = "blue"
+
+	colored_emblem = {
+		texture = "ce_frame_circle.dds"
+		color1 = "red"
+		color2 = "red"
+		instance = { scale = { 0.16 0.16 } position = { 0.10 0.155 } }
+	}
+	colored_emblem = {
+		texture = "ce_clouds_china_02.dds"
+		color1 = "azure"
+		color2 = "blue"
+		color3 = "white"
+		instance = { scale = { 0.4 0.4 } position = { 0.59 0.45 } }
+	}
+
+	colored_emblem = {
+		texture = "ce_dragon_china.dds"
+		color1 = "blue"
+		color2 = "white"
+		color3 = "blue_light"
+		instance = { scale = { 1.4 1.4 } position = { 0.5 0.49 } }
+	}
+	colored_emblem = {
+		texture = "ce_clouds_china_01.dds"
+		color1 = "azure"
+		color2 = "blue"
+		color3 = "white"
+		instance = { scale = { 0.4 0.4 } position = { 0.76 0.76 } }
+	}
+
+	colored_emblem = {
+		texture = "ce_clouds_china_03.dds"
+		color1 = "white"
+		color2 = "blue"
+		color3 = "azure"
+		instance = { scale = { 0.4 0.4 } position = { 0.39 0.81 } }
+	}
+}
+SCP = { #Sichuan Province need to be replaced with a different pattern
+	pattern = "pattern_solid.tga"
+	color1 = "green"
+	color2 = "white"
+
+	colored_emblem = {
+		texture = "ce_frame_circle.dds"
+		color1 = "red"
+		color2 = "red"
+		instance = { scale = { 0.16 0.16 } position = { 0.10 0.155 } }
+	}
+	colored_emblem = {
+		texture = "ce_dragon_china_circle.dds"
+		color1 = "blue"
+		color2 = "white"
+		color3 = "blue_light"
+		instance = { scale = { 0.68 0.68 } position = { 0.50 0.51 } }
+	}
+	colored_emblem = {
+		texture = "ce_clouds_china_02.dds"
+		color1 = "azure"
+		color2 = "blue"
+		color3 = "white"
+		instance = { scale = { 0.4 0.4 } position = { 0.59 0.45 } }
+	}
+}

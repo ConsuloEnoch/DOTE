@@ -1,0 +1,45 @@
+#testcountry tags
+NYR = { #Nanyang Republic南洋共和国
+	color = { 7  209  205 }
+	
+	tier = empire
+	
+	country_type = recognized
+	
+	cultures = { han french hakka min yue }
+	
+	capital = STATE_WEST_JAVA
+}
+MIG = { #Ming大明
+	color = { 4  13  230}
+	
+	tier = empire
+	
+	country_type = recognized
+	
+	cultures = { han }
+	
+	capital = STATE_NANJING 
+}
+QNG = { #Qing大清
+	color = { 232  235  8 }
+	
+	tier = empire
+	
+	country_type = recognized
+	
+	cultures = { manchu han mongol }
+	
+	capital = STATE_BEIJING 
+}
+SCP = { #Sichuan Province四川省
+	color = { 42  189  68 }
+	
+	tier = kingdom
+	
+	country_type = recognized
+	
+	cultures = { han }
+	
+	capital = STATE_SICHUAN 
+}

@@ -1,0 +1,80 @@
+DIPLOMACY = {
+    c:NYR ?= {
+        create_diplomatic_pact = {
+			country = c:BLG
+			type = puppet #needs to be replaced as tusi
+		}
+		create_diplomatic_pact = {
+			country = c:TID
+			type = puppet #needs to be replaced as tusi
+		}
+		create_diplomatic_pact = {
+			country = c:SRK 
+			type = puppet #needs to be replaced as tusi
+		}
+		create_diplomatic_pact = {
+			country = c:YOG 
+			type = puppet #needs to be replaced as tusi
+		}
+		create_diplomatic_pact = {
+			country = c:PON
+			type = puppet #needs to be replaced as tusi
+		}
+		create_diplomatic_pact = {
+			country = c:BNJ
+			type = puppet #needs to be replaced as tusi
+		}
+		create_diplomatic_pact = {
+			country = c:BRU 
+			type = puppet #needs to be replaced as tusi
+		}
+        create_diplomatic_pact = {
+			country = c:BAL
+			type = puppet #needs to be replaced as tusi
+		}
+        create_diplomatic_pact = {
+			country = c:KTI
+			type = puppet #needs to be replaced as tusi
+		}
+	}
+    c:DEI ?= {
+		create_diplomatic_pact = {
+			country = c:JMB
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:SAK
+			type = puppet
+		}
+	}
+    c:MIG ?= {
+        create_diplomatic_pact = {
+            country = c:SCP
+            type = puppet #needs to be replaced as province
+        }
+        create_diplomatic_pact = {
+            country = c:DAI 
+            type = tributary #needs to be replaced as chaogong
+    }
+    c:QNG ?= {
+        create_diplomatic_pact = {
+            country = c:KOR 
+            type = puppet #needs to be replaced as fanshu
+        }
+        }
+    }
+    c:NET ?= {
+		create_diplomatic_pact = {
+			country = c:LUX
+			type = personal_union
+		}
+		create_diplomatic_pact = {
+			country = c:LUX
+			type = grant_own_market
+		}
+		create_diplomatic_pact = {
+			country = c:DEI
+			type = dominion
+		}
+	}
+}

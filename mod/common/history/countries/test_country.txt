@@ -1,0 +1,175 @@
+COUNTRIES = {
+	c:NYR ?= {
+		ig:ig_armed_forces = {
+			add_ruling_interest_group = yes
+		}
+
+		effect_starting_technology_tier_1_tech = yes
+		
+		set_tax_level = high
+
+		add_technology_researched = labor_movement
+		add_technology_researched = nationalism
+		add_technology_researched = human_rights
+		add_technology_researched = pharmaceuticals
+		add_technology_researched = quinine
+		
+		activate_law = law_type:law_presidential_republic 
+		activate_law = law_type:law_oligarchy
+		activate_law = law_type:law_freedom_of_conscience
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_appointed_bureaucrats
+		activate_law = law_type:law_professional_army
+		activate_law = law_type:law_national_guard
+		activate_law = law_type:law_interventionism
+		activate_law = law_type:law_protectionism
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_homesteading
+		activate_law = law_type:law_colonial_resettlement
+		activate_law = law_type:law_dedicated_police
+		activate_law = law_type:law_public_schools
+		activate_law = law_type:law_charitable_health_system
+		activate_law = law_type:law_censorship
+		activate_law = law_type:law_compulsory_primary_school
+		activate_law = law_type:law_women_own_property
+		activate_law = law_type:law_poor_laws
+		activate_law = law_type:law_slavery_banned
+		activate_law = law_type:law_migration_controls
+		
+		set_institution_investment_level = {
+			institution = institution_colonial_affairs
+			level = 3
+		}		
+
+		set_institution_investment_level = {
+			institution = institution_home_affairs
+			level = 2
+		}
+
+		set_institution_investment_level = {
+			institution = institution_schools
+			level = 3
+		}
+
+		set_institution_investment_level = {
+			institution = institution_police
+			level = 3
+		}
+
+		set_institution_investment_level = {
+			institution = institution_health_system
+			level = 2
+		}
+	}
+	c:QNG = {
+		ig:ig_armed_forces = {
+			add_ruling_interest_group = yes
+		}
+		ig:ig_landowners = {
+			add_ruling_interest_group = yes
+		}
+
+		effect_starting_technology_tier_2_tech = yes	
+		
+		activate_law = law_type:law_monarchy 
+		activate_law = law_type:law_autocracy
+		activate_law = law_type:law_freedom_of_conscience
+		activate_law = law_type:law_cultural_exclusion
+		activate_law = law_type:law_appointed_bureaucrats
+		activate_law = law_type:law_professional_army
+		activate_law = law_type:law_traditionalism
+		activate_law = law_type:law_mercantilism
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_tenant_farmers
+		activate_law = law_type:law_censorship
+		activate_law = law_type:law_poor_laws
+		activate_law = law_type:law_slavery_banned
+		activate_law = law_type:law_migration_controls
+
+		set_tax_level = medium
+
+	}
+	c:MIG = {
+
+		ig:ig_intelligentsia = {
+			add_ruling_interest_group = yes
+		}
+
+		ig:ig_petty_bourgeoisie = {
+			add_ruling_interest_group = yes
+		}
+
+		effect_starting_technology_tier_1_tech = yes
+		
+		set_market_capital = s:STATE_GUANGDONG	
+		
+		activate_law = law_type:law_monarchy 
+		activate_law = law_type:law_oligarchy
+		activate_law = law_type:law_freedom_of_conscience
+		activate_law = law_type:law_racial_segregation
+		activate_law = law_type:law_appointed_bureaucrats
+		activate_law = law_type:law_professional_army
+		activate_law = law_type:law_national_guard
+		activate_law = law_type:law_interventionism
+		activate_law = law_type:law_free_trade
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_tenant_farmers
+		activate_law = law_type:law_local_police
+		activate_law = law_type:law_censorship
+		activate_law = law_type:law_slavery_banned
+		activate_law = law_type:law_migration_controls
+
+		set_tax_level = high
+
+	}
+	c:SCP = {
+		set_next_election_date = 1836.10.1
+
+		ig:ig_intelligentsia = {
+			add_ruling_interest_group = yes
+		}
+
+		ig:ig_petty_bourgeoisie = {
+			add_ruling_interest_group = yes
+		}
+
+		effect_starting_technology_tier_1_tech = yes
+		
+		activate_law = law_type:law_presidential_republic 
+		activate_law = law_type:law_wealth_voting
+		activate_law = law_type:law_total_separation
+		activate_law = law_type:law_racial_segregation
+		activate_law = law_type:law_appointed_bureaucrats
+		activate_law = law_type:law_professional_army
+		activate_law = law_type:law_national_guard
+		activate_law = law_type:law_interventionism
+		activate_law = law_type:law_free_trade
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_tenant_farmers
+		activate_law = law_type:law_local_police
+		activate_law = law_type:law_censorship
+		activate_law = law_type:law_poor_laws
+		activate_law = law_type:law_slavery_banned
+		activate_law = law_type:law_migration_controls
+
+		set_tax_level = high
+
+		add_modifier = {
+			name = scp_huguangtiansichuan
+		}
+		add_modifier = {
+			name = scp_brine_industrial_revolution
+			years = 20
+			is_decaying = yes
+		}
+		add_modifier = {
+			name = scp_christian_spread
+		}
+		add_modifier = {
+			name = scp_autonomous_government
+		}
+		add_modifier = {
+			name = scp_Magna_Carta
+		}
+	}
+}

@@ -1,0 +1,63 @@
+POPS = {
+    #daqing pops
+    s:STATE_DZUNGARIA = { }
+    s:STATE_TIANSHAN = { }
+	s:STATE_SICHUAN = { }
+	s:STATE_YUNNAN = { }
+	s:STATE_GUIZHOU = { }
+	s:STATE_SHAOZHOU = { }
+	s:STATE_ALXA = { }
+	s:STATE_HINGGAN = { }
+	s:STATE_GUANGXI = { }
+	s:STATE_BEIJING = { }
+	s:STATE_SHENGJING = { }
+	s:STATE_SOUTHERN_MANCHURIA = { }
+	s:STATE_NORTHERN_MANCHURIA = { }
+	s:STATE_SHANXI = { }
+	s:STATE_NINGXIA = { }
+	s:STATE_GANSU = { }
+	s:STATE_XIAN = { }
+	s:STATE_QINGHAI = { }
+    # daming & scichuan pops
+	s:STATE_CHONGQING = { }
+	s:STATE_GUANGDONG = {
+		region_state:POR = {
+			create_pop = {
+				culture = yue
+				size = 186000
+			}
+			create_pop = {
+				culture = yue
+				size = 156000
+				religion = mahayana
+			}
+			create_pop = {
+				culture = portuguese
+				size = 996
+			}
+			create_pop = {
+				culture = yue
+				religion = catholic
+				size = 5000
+			}
+		}
+	}
+	s:STATE_FUJIAN = { }
+	s:STATE_ZHEJIANG = { }
+	s:STATE_JIANGSU = { }
+	s:STATE_NANJING = { }
+	s:STATE_HENAN = { }
+	s:STATE_ZHILI = { }
+	s:STATE_JIANGXI = { }
+	s:STATE_SOUTHERN_ANHUI = { }
+	s:STATE_NORTHERN_ANHUI = { }
+	s:STATE_WESTERN_HUBEI = { }
+	s:STATE_EASTERN_HUBEI = { }
+	s:STATE_HUNAN = { }
+	s:STATE_FORMOSA = { }
+	s:STATE_SHANDONG = { }
+	s:STATE_SUZHOU = { }
+	s:STATE_ULIASTAI = { }
+	s:STATE_URGA = { }
+    s:STATE_ALTAI = { }
+}

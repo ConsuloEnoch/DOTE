@@ -1,0 +1,36 @@
+DIPLOMACY = {
+    c:NYR ?= {
+       	set_relations = { country = c:MIG value = -50 }
+		set_relations = { country = c:GBR value = -20 }
+		set_relations = { country = c:QNG value = -30 }
+		set_relations = { country = c:JAP value = -10 }
+		set_relations = { country = c:DEI value = -20 }
+		set_relations = { country = c:BLG value = 20 }
+        set_relations = { country = c:TID value = 20 }
+        set_relations = { country = c:SRK value = 20 }
+        set_relations = { country = c:YOG value = 20 }
+        set_relations = { country = c:PON value = 20 }
+        set_relations = { country = c:BNJ value = 20 }
+        set_relations = { country = c:BRU value = 20 }
+        
+    }
+    c:MIG ?= {
+        set_relations = {country = c:NYR value = -30 }
+        set_relations = {country = c:QNG value = -20 }
+        set_relations = {country = c:SCP value = 60 }
+        set_relations = {country = c:GBR value = 30 }
+        set_relations = {country = c:JAP value = 20 }
+        set_relations = {country = c:DAI value = 30 }
+        set_relations = {country = c:KOR value = -20 }
+        set_relations = {country = c:RUS value = -20 }
+    }
+    c:QNG ?= {
+        set_relations = {country = c:NYR value = -10 }
+        set_relations = {country = c:MIG value = -20 }
+        set_relations = {country = c:SCP value = -20 }
+        set_relations = {country = c:GBR value = -30 }
+        set_relations = {country = c:JAP value = -10 }
+        set_relations = {country = c:KOR value = 40 }
+        set_relations = {country = c:RUS value = 30 }
+    }
+}
